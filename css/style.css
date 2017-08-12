@@ -6,12 +6,10 @@ army green: 41521F;
 
 /*SECTION 1: HEADER*/
 
-
-/*Mi bg no se ve entero, solo lo que toman los rows :(*/
-
 body {
     margin: 0 auto;
     padding: 0;
+    width: 100%;
 }
 
 .welcome {
@@ -25,6 +23,7 @@ body {
     color: white;
     background-color: transparent;
     border: none;
+    margin-left: 80px;
 }
 
 .navbar-default .navbar-brand,
@@ -35,39 +34,33 @@ body {
 #sect1 {
     color: white;
     padding: 120px 0 140px 40px;
+    margin-left: 50px;
 }
 
 .btn {
     background-color: #41521f;
     border-color: #41521f;
+    color: white;
 }
 
 
 /*SECTION 2: INFO 1*/
 
-#sec2 {
-    background-color: white;
+.row {
+    margin: 0;
 }
 
-#koala2 {
-    margin-bottom: 100px;
-    margin-top: 30px;
-}
-
-.info {
-    padding: 100px;
+.info1 {
     margin-top: 100px;
+    color: #999997;
 }
 
-.info1,
-.info2 {
-    color: #777777;
-}
-
-.info h3,
-.info2 h5 {
+.found-info {
     color: #A89F68;
-    font-weight: bolder;
+}
+
+.info2 {
+    padding: 0;
 }
 
 
@@ -76,7 +69,7 @@ body {
 #sect3 {
     background-color: #A89F68;
     color: white;
-    padding-right: 30px;
+    width: 100%;
 }
 
 #parraf3 h3 {
@@ -92,34 +85,40 @@ body {
     padding: 100px;
 }
 
-#img3 {
-    padding: 100px 0 100px;
-}
-
 .message,
 .dono {
     color: #41521f;
+}
+
+#img3 {
+    padding: 40px 30px;
 }
 
 
 /* SECTION 4: KOALA IMG */
 
 #koala4 {
-    background: url(../img/cuatro.jpg);
-}
-
-#parraf4 {
-    color: white;
-    padding: 100px 0 780px;
+    background-image: url(../img/cuatro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+#parraf4 {
+    color: white;
+    padding: 100px 0 780px;
+}
+
 
 /* SECTION 5: HOW TO HELP */
 
-.howto {
+.wehelp {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.icono {
     padding: 50px;
 }
 
@@ -139,13 +138,94 @@ body {
 }
 
 
+/*section carrusel*/
+
+.carrusel {
+    width: 100%;
+}
+
+.foto {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
 /* SECTION 6: DONATIONS */
 
-#donations,
-#list {
+.donations {
     background-color: #a89f68;
+    width: 100%;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.how-help {
+    padding: 80px 0 50px 0;
+    color: #41521f;
+    font-weight: bold;
+}
+
+.lista {
+    line-height: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+    font-size: 10px;
+    letter-spacing: 4px;
+    ;
+    font-weight: bold;
+}
+
+.fa-usd {
+    display: flex;
+    align-self: flex-start;
+    font-size: 18px;
+}
+
+.aud {
+    display: flex;
+    align-self: flex-end;
+    margin-left: 110px;
+    font-size: 12px;
+}
+
+.amount {
+    position: relative;
+    font-size: 100px;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
     color: white;
+}
+
+hr {
+    width: 80%;
 }
 
 
 /*SECTION 7: FOOTER*/
+
+.footer {
+    background-color: #41521f;
+    color: #A89F68;
+    padding: 100px;
+}
+
+.foo {
+    color: white;
+    margin-top: -10px;
+    margin-bottom: -3px;
+}
+
+.mail {
+    color: #A89F68;
+}
+
+.foot {
+    padding: 10px;
+}
