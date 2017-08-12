@@ -1,0 +1,146 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+
+/*SECTION 1: HEADER*/
+
+
+/*Mi bg no se ve entero, solo lo que toman los rows :(*/
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.welcome {
+    background: url(../img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-default {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+#sect1 {
+    color: white;
+    padding: 120px 0 140px 40px;
+}
+
+.btn {
+    background-color: #41521f;
+    border-color: #41521f;
+}
+
+
+/*SECTION 2: INFO 1*/
+
+#sec2 {
+    background-color: white;
+}
+
+#koala2 {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.info {
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.info1,
+.info2 {
+    color: #777777;
+}
+
+.info h3,
+.info2 h5 {
+    color: #A89F68;
+    font-weight: bolder;
+}
+
+
+/*SECTION 3: HELP*/
+
+#sect3 {
+    background-color: #A89F68;
+    color: white;
+    padding-right: 30px;
+}
+
+#parraf3 h3 {
+    color: #41521f;
+    font-weight: bolder;
+}
+
+#koala3 {
+    border: 10px solid white;
+}
+
+#parraf3 {
+    padding: 100px;
+}
+
+#img3 {
+    padding: 100px 0 100px;
+}
+
+
+/* SECTION 4: KOALA IMG */
+
+#koala4 {
+    background: url(../img/cuatro.jpg);
+}
+
+#parraf4 {
+    color: white;
+    padding: 100px 0 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* SECTION 5: HOW TO HELP */
+
+.howto {
+    padding: 50px;
+}
+
+.howto h4,
+#icon {
+    color: #A89F68;
+}
+
+#icon {
+    font-size: 48px;
+    padding: 20px;
+}
+
+.howto p {
+    color: #999997;
+    padding: 20px;
+}
+
+
+/* SECTION 6: DONATIONS */
+
+#donations,
+#list {
+    background-color: #a89f68;
+    color: white;
+}
+
+
+/*SECTION 7: FOOTER*/
